@@ -46,30 +46,194 @@ header nav ul li a.atual {
 =======================*/
 
 section.banner  {
-  display: flex;
-  gap: 40px;
-  margin: 2vw auto;
-  width: 80%;
-  max-width: 5000px;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin: 5vw auto;
+  width: 60%;
+  max-width: 800px;
 }
 
 section.banner h1 {
-  font-size: 2rem;
-  width: 50%;
+  font-size: 3rem;
+  /*width: 50%;*/
 }
 section.banner h1 span{
   font-weight: bold;
 }
 section.banner p {
+  line-height: 2.5rem;
   font-size: 1.5rem;
   color: #5A5A5A;
 }
 
+/*======CONTENT========*/
+.content{
+  margin: 5vw auto;
+  width: 60%;
+
+}
+.content >ul{
+  display: grid;
+   grid-template-columns: 1fr 1fr;
+  gap: 2vw;
+  margin: 2vw;
+}
+.content >ul >li  {
+  background-color: #ffff;
+  padding: 30px;
+  border: 2px solid #E5E5E5;
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px #9b9b9b;
+}
+.content ul li h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.content ul li p {
+  line-height: 1.5rem;
+  color: #757575;
+}
+.content ul li ul{
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 0 0 ;
+}
+.content ul li ul li {
+  background-color: #F5F5F5;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+/*===FINAL===*/
+
+footer{
+  margin: 2vw auto;
+  justify-content: center;
+  text-align: center;
+}
+
+footer a {
+   padding:20px 23vw ;
+   justify-content: center;
+   border-radius: 15px;
+   color: #7C7C7C;
+   background-color: #ffff;
+   border: 1px solid #C2C2C2;
+}
 
 
+/*====ABOUT====*/
 
 
+.aboutBanner {
+    display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin: 5vw auto;
+  width: 60%;
+  max-width: 800px;
+}
+.aboutBanner h1 {
+  font-size: 3rem;
+}
+.aboutBanner p {
+  line-height: 2.5rem;
+    font-size: 1.5rem;
+  color: #5A5A5A;
+}
 
+/*====PROJECTS====*/
+
+/*===banner===*/
+
+.projectsBan{
+    display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin: 5vw auto;
+  width: 60%;
+  max-width: 800px;
+}
+.projectsBan h1 {
+  font-size: 3rem;
+}
+.projectsBan p {
+  line-height: 2.5rem;
+    font-size: 1.5rem;
+  color: #5A5A5A;
+}
+
+/*===banner===*/
+
+.contentProj{
+  margin: 5vw auto;
+  width: 80%;
+  max-width: 1000px;
+}
+.contentProj ul li{
+  margin: 2vw;
+  padding: 30px;
+  background-color: #ffff;
+  border: 1px solid #E5E5E5;
+  border-radius: 15px;
+    box-shadow: 1px 1px 4px #9b9b9b;
+}
+.contentProj ul li h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0 0 20px 0;
+}
+
+.contentProj ul li p {
+    margin: 20px 0;
+    color: #757575;
+}
+
+/*====CONNECT====*/
+
+/*==BANNER==*/
+
+.connectBan{
+    display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin: 5vw auto;
+  width: 60%;
+  max-width: 800px;
+}
+.connectBan h1 {
+  font-size: 3rem;
+}
+.connectBan p {
+  line-height: 2.5rem;
+    font-size: 1.5rem;
+  color: #5A5A5A;
+}
+
+.connectContent{
+
+  margin: 5vw auto;
+  width: 60%;
+  max-width: 900px;
+}
+.connectContent ul{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+  gap: 2vw;
+  margin: 2vw;
+}
+.connectContent ul li {
+  text-align: center;
+  background-color: #ffff;
+  border: 1px solid #E5E5E5;
+  padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px #9b9b9b;
+}
+.connectContent ul li i{
+  color: black;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
 
 
