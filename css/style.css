@@ -97,6 +97,7 @@ section.banner p {
 }
 .content ul li ul{
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 10px 0 0 0 ;
 }
@@ -239,7 +240,7 @@ footer a {
 
 /*===RESPONSIVO===*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   
    header nav {
     margin: 3vw;
