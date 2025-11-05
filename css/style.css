@@ -25,7 +25,7 @@ header nav {
   justify-content: center;
 }
 header nav ul {
-  display: flex;
+  display: flex;  
   gap: 30px;
   border: 2px solid #E5E5E5;
   border-radius: 30px;
@@ -212,7 +212,6 @@ footer a {
 }
 
 .connectContent{
-
   margin: 5vw auto;
   width: 60%;
   max-width: 900px;
@@ -220,21 +219,26 @@ footer a {
 .connectContent ul{
    display: grid;
    grid-template-columns: 1fr 1fr;
-  gap: 2vw;
-  margin: 2vw;
+   gap: 40px;
+   margin: 5vw auto 0 auto;
 }
 .connectContent ul li {
   text-align: center;
   background-color: #ffff;
   border: 1px solid #E5E5E5;
-  padding: 20px 40px;
+  padding: 10px 20px;
     border-radius: 15px;
     box-shadow: 1px 1px 4px #9b9b9b;
 }
-.connectContent ul li i{
-  color: black;
-  font-size: 1.5rem;
-  margin-right: 10px;
+.connectContent ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connectContent ul li a svg{
+  width: 8%;
+  margin: 0 20px;
+
 }
 
 
