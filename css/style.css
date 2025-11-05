@@ -2,7 +2,7 @@
 
 :root {
   --main-bg-color: #F5F5F5;
-  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 3rem);
+  font-size: clamp(0.9375rem,calc(0.9119rem + .1536vw) , 4rem);
   font-family: "Montserrat", sans-serif;
 }
 a{
@@ -74,7 +74,7 @@ section.banner p {
 }
 .content >ul{
   display: grid;
-   grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2vw;
   margin: 2vw;
 }
@@ -236,4 +236,48 @@ footer a {
   margin-right: 10px;
 }
 
+
+/*===RESPONSIVO===*/
+
+@media only screen and (max-width: 600px) {
+  
+   header nav {
+    margin: 3vw;
+   }
+   header nav ul {
+      gap: 5px
+      ;
+   }
+
+   section.banner,
+   .aboutBanner,
+   .connectBan,
+   .projectsBan{
+    display: block;
+   }
+  
+      .content{
+        width: 90%;
+      }
+    
+   .content >ul{
+    display: block;
+
+   }
+   .content >ul >li {
+    margin: 4vw 0 ;
+   }
+   footer{
+    margin: 8vw auto;
+   }
+   .connectContent{
+    width: 90%;
+   }
+  .connectContent ul {
+    display: block;
+   }
+   .connectContent ul li {
+    margin: 3vw 0;
+   }
+}
 
